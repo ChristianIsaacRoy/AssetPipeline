@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\AssetPipeline_02.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2C129396-0C22-4DCB-9ADF-0ED8FEB58C1A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AssetPipeline_02.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AssetPipeline_02Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{27C7F58D-1AA7-4645-9CE9-B62938C3B557}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\AssetPipeline_02">
+			<UniqueIdentifier>{FD9CCB12-5238-4738-8F9C-577809228764}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AssetPipeline_02\AssetPipeline_02.Build.cs">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\AssetPipeline_02\AssetPipeline_02.cpp">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AssetPipeline_02\AssetPipeline_02.h">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AssetPipeline_02\AssetPipeline_02Character.cpp">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AssetPipeline_02\AssetPipeline_02Character.h">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AssetPipeline_02\AssetPipeline_02GameMode.cpp">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AssetPipeline_02\AssetPipeline_02GameMode.h">
+			<Filter>Source\AssetPipeline_02</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
